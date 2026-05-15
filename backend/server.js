@@ -6,7 +6,7 @@ import cors from 'cors'
 const app=exp()
 
 app.use(cors({
-    origin:["http://localhost:5173","http://localhost:5174"]
+    origin:["http://localhost:5173","http://localhost:5174","https://mini-mern-app-oljh.vercel.app"]
 }))
 app.use(exp.json());
 //forward req to userApp if path starts with /user-api
